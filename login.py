@@ -4,7 +4,10 @@ from selenium.webdriver.common.by import By
 
 
 # Abro el navegador
-driver = webdriver.Chrome()
+#driver = webdriver.Chrome()
+driver = webdriver.Firefox()
+#driver = webdriver.Edge()
+#driver = webdriver.ChromiumEdge()
 
 
 # Defino que se maximiza
